@@ -2,6 +2,126 @@
 @tailwind components;
 @tailwind utilities;
 
-.demo{
-    background-color: aqua;
+/* Custom Fonts */
+@font-face {
+    font-family: 'Nantes-Bold';
+    src: url('./fonts/Nantes-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'Nantes-BoldItalic';
+    src: url('./fonts/Nantes-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nantes-Light';
+    src: url('./fonts/Nantes-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nantes-LightItalic';
+    src: url('./fonts/Nantes-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nantes-Regular';
+    src: url('./fonts/Nantes-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nantes-RegularItalic';
+    src: url('./fonts/Nantes-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* MessinaSans */
+@font-face {
+    font-family: 'MessinaSans-Black';
+    src: url('./fonts/MessinaSans-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MessinaSans-BlackItalic';
+    src: url('./fonts/MessinaSans-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MessinaSans-Bold';
+    src: url('./fonts/MessinaSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MessinaSans-BoldItalic';
+    src: url('./fonts/MessinaSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MessinaSans-Book';
+    src: url('./fonts/MessinaSans-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MessinaSans-BookItalic';
+    src: url('./fonts/MessinaSans-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MessinaSans-Light';
+    src: url('./fonts/MessinaSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MessinaSans-LightItalic';
+    src: url('./fonts/MessinaSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MessinaSans-RegularItalic';
+    src: url('./fonts/MessinaSans-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MessinaSans-SemiBold';
+    src: url('./fonts/MessinaSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MessinaSans-SemiBoldItalic';
+    src: url('./fonts/MessinaSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Tailwind CSS Classes */
+
